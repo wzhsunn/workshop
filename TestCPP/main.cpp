@@ -126,7 +126,8 @@ void TestMap()
 void TestSort()
 {
 	int array[] = { 9, 1, 2, 3, 10, 11, 5 };
-	QuickSort(array, 0, 6);
+//	QuickSort(array, 0, 6);
+	SelectSort(array, 7);
 	for (auto i : array)
 	{
 		cout << i << ' ';
