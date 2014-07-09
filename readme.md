@@ -7,3 +7,5 @@ select sort
 insert sort
 
 bubble sort
+
+heap sort

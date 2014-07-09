@@ -81,6 +81,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="heapsort.cpp" />
     <ClCompile Include="insertSort.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="quicksort.cpp" />

@@ -129,7 +129,8 @@ void TestSort()
 //	QuickSort(array, 0, 6);
 	//SelectSort(array, 7);
 	//BubbleSort(array, 7);
-	InsertSort(array, 7);
+//	InsertSort(array, 7);
+	HeapSort(array, 7);
 	for (auto i : array)
 	{
 		cout << i << ' ';
