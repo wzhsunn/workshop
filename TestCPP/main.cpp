@@ -130,7 +130,8 @@ void TestSort()
 	//SelectSort(array, 7);
 	//BubbleSort(array, 7);
 //	InsertSort(array, 7);
-	HeapSort(array, 7);
+//	HeapSort(array, 7);
+	MergeSort(array, 7);
 	for (auto i : array)
 	{
 		cout << i << ' ';

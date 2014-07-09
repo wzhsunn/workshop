@@ -84,6 +84,7 @@
     <ClCompile Include="heapsort.cpp" />
     <ClCompile Include="insertSort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mergesort.cpp" />
     <ClCompile Include="quicksort.cpp" />
     <ClCompile Include="selectsort.cpp" />
   </ItemGroup>

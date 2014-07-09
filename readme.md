@@ -9,3 +9,5 @@ insert sort
 bubble sort
 
 heap sort
+
+merge sort
