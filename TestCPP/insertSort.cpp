@@ -13,6 +13,10 @@ void InsertSort(int array[], int n)
 			{
 				array[j + 1] = array[j];
 			}
+			else
+			{
+				break;
+			}
 		}
 		array[j + 1] = tmp;
 	}
