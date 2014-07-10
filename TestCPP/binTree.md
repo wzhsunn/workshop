@@ -84,3 +84,30 @@ void LevelTree(BinNode* root)
     }
 }
 ````
+
+####∑«µ›πÈ«∞–Ú±È¿˙
+
+```C++
+void PreOrder(BinNode* root)
+{
+    if(root ==nullptr)
+    {
+        return;
+    }
+    //stl stack
+    stack s;
+    s.push(root);
+    while(root || !s.empty())
+    {
+        while(root)
+        {
+            cout << root->data;
+            s.push(root);
+            root = root->left;
+        }
+        root = s.top();
+        s.pop();
+        root = root->right;
+    }
+}
+```
