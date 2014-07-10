@@ -56,3 +56,31 @@ void PostOrder(BinNode* root)
 }
 ```
 
+####≤„–Ú±È¿˙
+
+```C++
+void LevelTree(BinNode* root)
+{
+    if(root == nullptr)
+    {
+        return;
+    }    
+    //stl queue 
+    queue q;
+    q.push(root);
+    while(!q.empty())
+    {
+        BinNode* node = q.front();
+        cout << node->data;
+        if(node->left != nullptr)
+        {
+            q.push(node->left);
+        }
+        if(node->right != nullptr)
+        {
+            q.push(node->right);
+        }
+        q.pop();
+    }
+}
+````
