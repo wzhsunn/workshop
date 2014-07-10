@@ -13,3 +13,5 @@ heap sort
 merge 
 
 Perm 
+
+singleton
