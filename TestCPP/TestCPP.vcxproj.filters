@@ -36,6 +36,12 @@
     <ClCompile Include="mergesort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="atest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Perm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">

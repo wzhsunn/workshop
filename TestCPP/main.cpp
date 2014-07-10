@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <ctime>
 #include <vector>
@@ -91,14 +90,6 @@ void TestVector()
 		}
 	}
 }
-void Test() {
-	vector<int> foo{ 1, 2, 3 };
-	vector<int> bar{ 1, 2, 3 };
-	cout << &foo << endl;
-	cout << &bar << endl;
-
-	list<int> list1{ 1, 2, 3 };
-}
 void TestMap()
 {
 	map<string, int> smap;
@@ -148,10 +139,11 @@ int main()
 	TestStringCopy();*/
 	//TestBase();
 //	TestVector();
-//	Test();
+	Test();
 	
 
 //	TestMap();
-	TestSort();
+//	TestSort();
+	//TestPerm();
 	return 0;
 }
