@@ -15,3 +15,6 @@ merge
 Perm 
 
 singleton
+
+    int a;
+    double b;
