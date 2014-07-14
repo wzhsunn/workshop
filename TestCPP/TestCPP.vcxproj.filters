@@ -59,5 +59,8 @@
     <None Include="binTree.md">
       <Filter>note</Filter>
     </None>
+    <None Include="todo.md">
+      <Filter>note</Filter>
+    </None>
   </ItemGroup>
 </Project>
