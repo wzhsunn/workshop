@@ -139,11 +139,12 @@ int main()
 	TestStringCopy();*/
 	//TestBase();
 //	TestVector();
-	Test();
+//	Test();
 	
 
 //	TestMap();
 //	TestSort();
 	//TestPerm();
+	TestStr2Int();
 	return 0;
 }

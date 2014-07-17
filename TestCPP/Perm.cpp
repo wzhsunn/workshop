@@ -6,7 +6,7 @@ void Perm(int list[], int k, int m)
 {
 	if (k == m)
 	{
-		for (int i = 0; i <= m; i ++)
+		for (int i = 0; i <= m; i++)
 		{
 			cout << list[i];
 		}
@@ -14,7 +14,7 @@ void Perm(int list[], int k, int m)
 	}
 	else
 	{
-		for (int j = k; j <= m; j ++)
+		for (int j = k; j <= m; j++)
 		{
 			swap(list[j], list[k]);
 			Perm(list, k + 1, m);

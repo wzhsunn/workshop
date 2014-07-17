@@ -81,6 +81,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="atest.cpp" />
+    <ClCompile Include="atoi.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="heapsort.cpp" />
     <ClCompile Include="insertSort.cpp" />

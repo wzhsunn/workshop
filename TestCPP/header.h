@@ -11,4 +11,7 @@ void MergeSort(int array[], int n);
 
 
 void TestPerm();
+
+void TestStr2Int();
+
 #endif
