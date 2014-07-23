@@ -65,5 +65,8 @@
     <None Include="todo.md">
       <Filter>note</Filter>
     </None>
+    <None Include="note.md">
+      <Filter>note</Filter>
+    </None>
   </ItemGroup>
 </Project>
